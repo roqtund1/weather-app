@@ -2,6 +2,7 @@
   --color-primary: #3c47e9;
   --color-secondary: #1e213a;
   --color-body: #100e1d;
+  --color-placeholder: #616475;
 }
 
 html {
@@ -23,9 +24,34 @@ body {
 .input {
   padding: 1.5rem 5rem;
   outline: 0;
-  border: 2px solid #e7e7eb;
 }
 
 ::placeholder {
-  color: #616475;
+  color: var(--color-placeholder);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* input-group */
+
+.input-group {
+  border: 2px solid #e7e7eb;
+  display: flex;
+  align-items: center;
+}
+
+.input-group .input {
+  border: 0;
+  margin: 0;
+  padding-left: 0;
+  flex-grow: 1;
+}
+
+.input-group__icon {
+  fill: var(--color-placeholder);
+  height: 2rem;
+  width: 2rem;
+  margin: 1.5rem;
 }
