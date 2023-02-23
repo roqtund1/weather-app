@@ -83,3 +83,28 @@ body {
     grid-template-columns: repeat(5, 12rem);
   }
 }
+
+/* Buttons */
+
+.btn {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  border: 0;
+  color: #fff;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+}
+
+.btn--grey {
+  background-color: #6e707a;
+}
+
+.btn--stretched {
+  padding: 1.2rem 2rem;
+}
+
+a.btn {
+  text-decoration: none;
+}
