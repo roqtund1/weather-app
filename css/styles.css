@@ -3,3 +3,13 @@
   --color-secondary: #1e213a;
   --color-body: #100e1d;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
