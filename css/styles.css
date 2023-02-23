@@ -51,9 +51,32 @@ body {
 
 .input-group__icon {
   fill: var(--color-placeholder);
+  margin: 1.5rem;
+}
+
+/* icon */
+.icon {
   height: 2rem;
   width: 2rem;
-  margin: 1.5rem;
+  margin: 1rem;
+}
+
+.icon--medium {
+  transform: scale(1.5);
+}
+
+.icon--white {
+  fill: #fff;
+}
+
+.icon--container {
+  width: 40px;
+  height: 40px;
+  background-color: #636572;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* grid */
@@ -107,4 +130,26 @@ body {
 
 a.btn {
   text-decoration: none;
+}
+
+/* Expandables */
+
+.expandable {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.expandable:hover {
+  border: 1px solid var(--color-placeholder);
+}
+
+.expandable__text {
+  flex-grow: 1;
+  margin: 2.3rem 1.2rem;
+}
+
+.expandable__icon {
+  fill: var(--color-placeholder);
 }
