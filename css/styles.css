@@ -55,3 +55,31 @@ body {
   width: 2rem;
   margin: 1.5rem;
 }
+
+/* grid */
+
+.grid {
+  display: grid;
+}
+
+.grid--3x2 {
+  grid-template-columns: repeat(2, 12rem);
+  grid-template-rows: repeat(3, 17.7rem);
+  gap: 26px;
+}
+
+.grid--2x2 {
+  grid-template-columns: repeat(2, 32.8rem);
+  grid-template-rows: repeat(1, 20.4rem);
+  gap: 48px;
+}
+
+.grid--2x2-small {
+  grid-template-rows: repeat(1, 16rem);
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x5 {
+    grid-template-columns: repeat(5, 12rem);
+  }
+}
