@@ -473,3 +473,17 @@ a.btn {
   color: #a09fb1;
   margin-left: 1.6rem;
 }
+
+/* footer */
+
+.footer {
+  font-weight: 500;
+  font-size: 14px;
+  color: #a09fb1;
+  text-align: center;
+}
+
+.footer--username {
+  font-weight: bold;
+  text-decoration: underline;
+}
