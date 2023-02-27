@@ -436,3 +436,40 @@ a.btn {
     font-size: 10px;
   }
 }
+
+/* Block */
+
+.block {
+  padding: 2rem;
+}
+
+/* weather */
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e7e7eb;
+}
+.weather__date {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.weather__image {
+  margin-bottom: 3.1rem;
+  height: 62px;
+  width: 57px;
+}
+
+.weather__temp {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.weather__temp-2 {
+  color: #a09fb1;
+  margin-left: 1.6rem;
+}
