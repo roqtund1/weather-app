@@ -22,8 +22,9 @@ body {
 
 /* input */
 .input {
-  padding: 1.5rem 5rem;
+  padding: 1.5rem;
   outline: 0;
+  color: #fff;
 }
 
 ::placeholder {
@@ -128,6 +129,7 @@ body {
   padding: 1.5rem 2rem;
   border: 0;
   color: #fff;
+  cursor: pointer;
 }
 
 .btn--primary {
@@ -186,23 +188,55 @@ a.btn {
   justify-content: flex-end;
   align-items: center;
   padding: 0;
-  margin: 20px 0 30px;
-}
-
-.nav__btn {
-  height: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin: 17.4px 0 30px;
 }
 
 .nav__grid {
-  margin: 5.8rem auto;
+  margin: 2rem auto;
   outline: 0;
   border: 0;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__toggler {
+    margin-bottom: 5px;
+  }
+  .nav__input {
+    height: 100%;
+    padding-left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .nav__input::placeholder {
+    font-size: 9px;
+  }
+  .nav__grid .input-group {
+    height: 30px;
+    border-width: 1px;
+  }
+  .nav__btn {
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+  .nav__grid {
+    margin: 1rem auto;
+  }
+
+  .expandable__text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
 }
 
 .nav__grid .input-group {
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .nav .input-group {
@@ -310,9 +344,8 @@ a.btn {
   }
 
   .nav__btn {
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 14px;
+    padding: 6px;
+    font-size: 10px;
   }
 
   .nav__icon {

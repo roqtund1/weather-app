@@ -11,8 +11,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/sty.css" />
     <title>Weather app</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="nav">
+      <div class="nav__content">
+        <a href="home.html">
+          <div class="nav__toggler">
+            <svg class="icon icon--white">
+              <use xlink:href="images/sprite.svg#close"></use>
+            </svg>
+          </div>
+        </a>
+        <div class="grid grid--2x2-smallest nav__grid">
+          <div class="input-group">
+            <svg class="icon input-group__icon">
+              <use xlink:href="images/sprite.svg#search"></use>
+            </svg>
+            <input
+              type="text"
+              class="input input--secondary nav__input"
+              placeholder="Search location"
+            />
+          </div>
+          <button class="btn btn--primary nav__btn">Search</button>
+        </div>
+        <div class="block nav__expandables">
+          <div class="expandable">
+            <p class="expandable__text">London</p>
+            <svg class="icon expandable__icon">
+              <use xlink:href="images/sprite.svg#chevron_right"></use>
+            </svg>
+          </div>
+          <div class="expandable">
+            <p class="expandable__text">Barcelona</p>
+            <svg class="icon expandable__icon">
+              <use xlink:href="images/sprite.svg#chevron_right"></use>
+            </svg>
+          </div>
+          <div class="expandable">
+            <p class="expandable__text">Long Beach</p>
+            <svg class="icon expandable__icon">
+              <use xlink:href="images/sprite.svg#chevron_right"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>

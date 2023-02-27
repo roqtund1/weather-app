@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/sty.css" />
+    <title>Page 2</title>
+  </head>
+  <body>
+    <div class="nav__expandable-content">
+      <img src="images/Cloud-background.png" alt="" class="expandable__bg" />
+      <div class="expandable__header">
+        <a href="/" class="btn btn--grey btn--stretched nav__btn"
+          >Search location</a
+        >
+        <span class="icon--container nav__icon">
+          <svg class="icon icon--white icon--medium">
+            <use xlink:href="images/sprite.svg#my_location"></use>
+          </svg>
+        </span>
+      </div>
+      <img
+        class="expandable__image"
+        src="images/Shower.png"
+        alt="A photo of a showering weather"
+      />
+      <p class="expandable__temp">
+        <span>15</span><span class="expandable__temp-symbol">°C</span>
+      </p>
+      <p class="expandable__weather-status">Shower</p>
+      <date class="expandable__date">
+        <span>Today</span
+        ><span style="margin: 0 16px; font-size: 1.8rem; vertical-align: middle"
+          >·</span
+        ><span>Fri, 5 Jun</span>
+      </date>
+      <div class="expandable__location">
+        <svg class="icon icon--grey icon--medium expandable__icon">
+          <use xlink:href="images/sprite.svg#location_on"></use>
+        </svg>
+        <span class="expandable__location-text" id="location-name"
+          >Helsinki</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
