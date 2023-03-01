@@ -11,11 +11,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/sty.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Page 2</title>
   </head>
   <body>
-    <!-- <div class="nav__expandable-content">
+    <div class="nav__expandable-content">
       <img src="images/Cloud-background.png" alt="" class="expandable__bg" />
       <div class="expandable__header">
         <a href="/" class="btn btn--grey btn--stretched nav__btn"
@@ -50,6 +50,102 @@
           >Helsinki</span
         >
       </div>
-    </div> -->
+    </div>
+    <main class="main">
+      <section class="block weathers-block">
+        <div class="grid grid--3x2 grid--1x5 weathers-block__grid">
+          <article class="weather">
+            <date class="weather__date">Tomorrow</date>
+            <img class="weather__image" src="images/Shower.png" alt="" />
+            <div class="weather__temp">
+              <span class="weather__temp-1">16°C</span
+              ><span class="weather__temp-2">11°C</span>
+            </div>
+          </article>
+          <article class="weather">
+            <date class="weather__date">Tomorrow</date>
+            <img class="weather__image" src="images/Shower.png" alt="" />
+            <div class="weather__temp">
+              <span class="weather__temp-1">16°C</span
+              ><span class="weather__temp-2">11°C</span>
+            </div>
+          </article>
+          <article class="weather">
+            <date class="weather__date">Tomorrow</date>
+            <img class="weather__image" src="images/Shower.png" alt="" />
+            <div class="weather__temp">
+              <span class="weather__temp-1">16°C</span
+              ><span class="weather__temp-2">11°C</span>
+            </div>
+          </article>
+          <article class="weather">
+            <date class="weather__date">Tomorrow</date>
+            <img class="weather__image" src="images/Shower.png" alt="" />
+            <div class="weather__temp">
+              <span class="weather__temp-1">16°C</span
+              ><span class="weather__temp-2">11°C</span>
+            </div>
+          </article>
+          <article class="weather">
+            <date class="weather__date">Tomorrow</date>
+            <img class="weather__image" src="images/Shower.png" alt="" />
+            <div class="weather__temp">
+              <span class="weather__temp-1">16°C</span
+              ><span class="weather__temp-2">11°C</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="block highlights">
+        <header class="highlights__heading">Today's Highlights</header>
+        <div class="grid grid--2x1 grid--1x2 highlights__grid">
+          <article class="wind">
+            <header class="wind__status">Wind status</header>
+            <p class="wind__reading">
+              <span class="wind__reading-num">7</span
+              ><span class="wind__reading-unit">mph</span>
+            </p>
+            <div class="weather__location">
+              <span class="icon--container wind__icon">
+                <svg class="icon icon--white">
+                  <use xlink:href="images/sprite.svg#near_me"></use>
+                </svg>
+              </span>
+              <span class="weather__location-text">WSW</span>
+            </div>
+          </article>
+          <article class="humidity">
+            <header class="humidity__header">Humidity</header>
+            <p class="humidity__percentage">
+              <span class="humidity__percentage-num">84</span
+              ><span class="humidity__percentage-p">%</span>
+            </p>
+            <input type="range" value="84" class="humidity__input" />
+          </article>
+        </div>
+        <div class="grid grid--2x1 grid--1x2 grid--1x2-small highlights__grid">
+          <article class="visibility">
+            <header class="visibility__header">Visibility</header>
+            <p class="visibility__reading">
+              <span class="visibility__reading-num">6,4</span
+              ><span class="visibility__reading-unit">miles</span>
+            </p>
+          </article>
+          <article class="visibility">
+            <header class="visibility__header">Air Pressure</header>
+            <p class="visibility__reading">
+              <span class="visibility__reading-num">998</span
+              ><span class="visibility__reading-unit">mb</span>
+            </p>
+          </article>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer__text">
+          created by
+          <span class="footer--username">roqtund1</span> - devChallenges.io
+        </p>
+      </footer>
+    </main>
   </body>
 </html>
